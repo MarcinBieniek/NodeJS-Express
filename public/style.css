@@ -1,4 +1,9 @@
+.dark_theme {
+  background-color: black;
+  color: white;
+}
+
 h1 {
     font-weight: lighter;
     font-style: italic;
-  }
+}
