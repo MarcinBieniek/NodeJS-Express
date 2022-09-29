@@ -32,6 +32,10 @@ app.get('/history', (req, res) => {
   res.show('history.html');
 });
 
+app.get('/hello/:name', (req, res) => {
+    res.send(`Witaj ${req.params.name}`)
+});
+
 app.use((req, res) => {
     res.status(404).send('404 not found...');
   })
